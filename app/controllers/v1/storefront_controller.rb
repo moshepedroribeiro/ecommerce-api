@@ -1,3 +1,5 @@
-class V1::StorefrontController < ApplicationController
-  include Authenticable
+module V1
+  class StorefrontController < ApplicationController
+    include Authenticable
+  end
 end
